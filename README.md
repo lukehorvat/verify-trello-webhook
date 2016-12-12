@@ -29,4 +29,10 @@ verifyTrelloWebhook(signature, payload, secret, callbackUrl); // Returns true if
 
 ## Related
 
-You may also be interested in [verify-github-webhook](https://github.com/lukehorvat/verify-github-webhook), a similar package for GitHub webhook verification.
+You may be interested in [verify-github-webhook](https://github.com/lukehorvat/verify-github-webhook), a similar package for GitHub webhook verification.
+
+Also, check out my other Trello packages:
+
+- [create-trello-webhook](https://github.com/lukehorvat/create-trello-webhook)
+- [delete-trello-webhook](https://github.com/lukehorvat/delete-trello-webhook)
+- [get-trello-board](https://github.com/lukehorvat/get-trello-board)
