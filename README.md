@@ -19,5 +19,10 @@ Example:
 ```js
 import verifyTrelloWebhook from "verify-trello-webhook";
 
-// TODO.
+let signature = "LeCJzA5aHiwh4zcxLhY25TJSNg=";
+let payload = JSON.stringify({ hello: "world" });
+let secret = "secret";
+let callbackUrl = "https://example.com/webhooks";
+
+verifyTrelloWebhook(signature, payload, secret, callbackUrl); // Returns true if verification succeeds; otherwise, false.
 ```
