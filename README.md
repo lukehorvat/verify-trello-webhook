@@ -26,3 +26,7 @@ let callbackUrl = "https://example.com/webhooks";
 
 verifyTrelloWebhook(signature, payload, secret, callbackUrl); // Returns true if verification succeeds; otherwise, false.
 ```
+
+## Related
+
+You may also be interested in [verify-github-webhook](https://github.com/lukehorvat/verify-github-webhook), a similar package for GitHub webhook verification.
