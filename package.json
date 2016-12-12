@@ -1,0 +1,37 @@
+{
+  "name": "verify-trello-webhook",
+  "version": "0.0.0",
+  "description": "Safely verify that a received webhook originated from Trello.",
+  "author": "Luke Horvat",
+  "license": "MIT",
+  "repository": "lukehorvat/verify-trello-webhook",
+  "main": "dist",
+  "scripts": {
+    "build": "node_modules/.bin/babel lib -d dist -q",
+    "prebuild": "node_modules/.bin/rimraf dist",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-node6": "11.0.0",
+    "rimraf": "2.5.4"
+  },
+  "keywords": [
+    "trello",
+    "webhook",
+    "webhooks",
+    "verify",
+    "validate",
+    "validator",
+    "hash",
+    "base64",
+    "hmac",
+    "signature"
+  ],
+  "babel": {
+    "presets": [
+      "node6"
+    ]
+  }
+}
